@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("/assets/images/wallpaper.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+img{
+    width: 20vw;
+    height: 30vh;
+    object-fit: contain;
+
+}
+#contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-top: 35vh;
+    
+}
+.pajaros1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+   
+}
+.pajaros2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.pajaros3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
