@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-image: url("/assets/images/wallpaper.jpg");
+    background-image: url("./images/wallpaper.jpg");
     background-position: center;
     background-size: cover;
     object-fit: cover;
@@ -29,8 +29,6 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-   
 }
 .pajaros2 {
     display: flex;
